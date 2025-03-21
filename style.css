@@ -372,7 +372,7 @@ footer {
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
-    margin: 1.8rem 0.5rem;
+    margin: 1.8rem 0.6rem;
     transition: 0.5s ease;
 }
 
@@ -396,6 +396,28 @@ footer {
     letter-spacing: 0.1rem;
     transition: 0.3s ease;
     margin-top: 1.2rem;
+}
+
+.certificate {
+    display: inline-block;
+    padding: 0.7rem 1.8rem;
+    background-color: var(--main-color);
+    border-radius: 2rem;
+    color: var(--bg-color-02);
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: 0.3s ease;
+    margin-top: 1.2rem;
+    gap: 20px;
+    width: 190px;
+}
+
+.certificate:hover{ 
+
+    box-shadow: 0 0 0.3rem var(--main-color);
+    background-color: inherit;
+    color: var(--main-color);
+    cursor: pointer;
 }
 
 .btn:hover {
