@@ -32,31 +32,41 @@ html{
     font-family: "Poppins", sans-serif;
 }
    
-
-body{
-    
-    padding: 6rem 1rem;
-    margin: 5rem;  
-    background-color:#6e6e6e;
-    border: solid 2px var(--main-color);
+body {
+  max-width: 960px;
+  margin: 4rem auto;
+  padding: 3rem 1.5rem;
+  background-color: #6e6e6e;
+  border: 2px solid var(--main-color);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: var(--text-color);
+  font-family: 'Segoe UI', sans-serif;
 }
 
-p{
-    color: var(--text-color);
-    text-align: center;
-    margin-top: 20px;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
+/* Título principal com destaque e espaçamento */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #000;
 }
 
-b{
-    
-    color:#000000;
+/* Parágrafos com bom espaçamento e legibilidade */
+p {
+  display: flex;
+  flex-direction: column;  
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  color: var(--text-color);
 }
 
-h1{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.2rem;
+/* Negrito mais visível */
+b {
+  color: var(--main-color);
+  font-weight: 600;
 }
 

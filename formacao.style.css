@@ -32,14 +32,25 @@ html{
 }
    
 
-body{
-    
-    padding: 2rem 1rem;
-    margin: 5rem;  
-    background-color:#6e6e6e;
-    border: solid 2px var(--main-color);
+body {
+  max-width: 960px;              /* Limita a largura para manter o conteúdo centralizado */
+  margin: 5rem auto;             /* Centraliza horizontalmente e define margem superior/inferior */
+  padding: 2rem 1.5rem;
+  background-color: #6e6e6e;
+  border: 2px solid var(--main-color);
+  border-radius: 10px;           /* Deixa as bordas mais suaves */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+  color: #fff;                   /* Texto branco para contrastar com o fundo escuro */
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
 }
 
-img{ 
-    width: 100%;
+/* Melhoria para imagens */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;            /* Arredonda os cantos */
+  margin: 1rem 0;                /* Espaço vertical entre a imagem e o conteúdo */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil */
 }

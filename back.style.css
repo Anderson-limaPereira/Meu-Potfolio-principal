@@ -31,30 +31,42 @@ html{
     font-family: "Poppins", sans-serif;
 }
 
-body{
-
-    padding: 6rem 0.5rem;
-    margin: 5rem; 
-    background-color:#6e6e6e;
-    border: solid 2px var(--main-color);
+body {
+  max-width: 960px;
+  margin: 4rem auto;
+  padding: 3rem 1.5rem;
+  background-color: #6e6e6e;
+  border: 2px solid var(--main-color);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: var(--text-color);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
 }
 
-h1{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.2rem;
+/* Título centralizado e mais destacado */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0;
+  color: #000;
 }
 
-p{
-    color: var(--text-color);
-    text-align: center;
-    margin-top: 5rem;
-    letter-spacing: 0.1rem;
-    font-weight: 500;
+/* Parágrafos mais legíveis e centralizados */
+p {
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  color: var(--text-color);
 }
 
-
-b{
-
-    color:#000000;
+/* Texto em negrito com cor escura para contraste */
+b {
+  color:var(--main-color);
+  font-weight: 600;
 }
